@@ -15,7 +15,7 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/huawei/charlotte/charlotte-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/emily/emily-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
