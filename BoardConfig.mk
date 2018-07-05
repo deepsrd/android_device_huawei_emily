@@ -16,7 +16,7 @@
 # inherit from common kirin970-common
 -include device/huawei/kirin970-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/charlotte
+DEVICE_PATH := device/huawei/emily
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := charlotte,kirin970
+TARGET_OTA_ASSERT_DEVICE := emily,kirin970
