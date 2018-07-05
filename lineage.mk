@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/huawei/charlotte/full_charlotte.mk)
+$(call inherit-product, device/huawei/charlotte/full_emily.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_charlotte
-PRODUCT_DEVICE := charlotte
+PRODUCT_NAME := lineage_emily
+PRODUCT_DEVICE := emily
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := P20 Pro
+PRODUCT_MODEL := P20
