@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
 
 # Inherit from charlotte device
-$(call inherit-product, device/huawei/charlotte/device.mk)
+$(call inherit-product, device/huawei/emily/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := charlotte
-PRODUCT_NAME := full_charlotte
+PRODUCT_DEVICE := emily
+PRODUCT_NAME := full_emily
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := charlotte
+PRODUCT_MODEL := P20
