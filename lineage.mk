@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/huawei/charlotte/full_emily.mk)
+$(call inherit-product, device/huawei/emily/full_emily.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
